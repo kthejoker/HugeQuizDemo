@@ -1,0 +1,21 @@
+<div class='row'><h3>Answers</h3></div>
+<div class='row'>
+    <div class='col-md-9'>
+        <ul class='list-group'>
+        <!-- ko foreach: answersToShow -->
+
+    <li class='list-group-item'><span data-bind='text: Answer'></span> -  <span data-bind='text: Clue'></span></li>
+
+<!-- /ko -->
+        </ul>
+        
+    </div>
+    <div class='col-md-3'>
+        
+<ul class='list-group'>
+    <li class='list-group-item' data-bind='click: setAnswerGroup.bind($data, 1)'>1-2</li>
+    <li class='list-group-item' data-bind='click: setAnswerGroup.bind($data, 2)'>3-4</li>
+</ul>
+        
+    </div>
+</div>

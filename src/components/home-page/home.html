@@ -1,0 +1,9 @@
+<!-- ko with: Quiz -->
+<h2 data-bind='text: Title'></h2>
+
+<info-panel params='guess: $parent.guess, answerDisplay: answerDisplay, gameState: $parent.gameState, counter: $parent.counter, SubQuizzes: SubQuizzes'></info-panel>
+
+<answers params='Answers: Answers'></answers>
+
+<high-scores params='Rankings: sortedRankings'></high-scores>
+<!-- /ko -->

@@ -1,0 +1,23 @@
+<div class='row'><h3>High Scores</h3></div>
+<div class='row'>
+    <div class='col-md-9'>
+        <ul class='list-group'>
+        <!-- ko foreach: rankingsToDisplay -->
+
+    <li class='list-group-item' data-bind='text: display'></li>
+
+<!-- /ko -->
+        </ul>
+        
+    </div>
+    <div class='col-md-3'>
+        
+<ul class='list-group'>
+    <li class='list-group-item' data-bind='click: setRankingGroup.bind($data, 1)'>1-2</li>
+    <li class='list-group-item' data-bind='click: setRankingGroup.bind($data, 2)'>3-4</li>
+</ul>
+        
+    </div>
+</div>
+
+
