@@ -3,7 +3,7 @@ var express = require('express');
 
 var mongoose = require('mongoose');
 var baucis = require('baucis');
-var swagger = require('baucis-swagger');
+//var swagger = require('baucis-swagger');
 
 // __Main Program__
 
