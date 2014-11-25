@@ -1,0 +1,288 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json huge-quiz-demo@0.0.0 No description
+6 warn package.json huge-quiz-demo@0.0.0 No repository field.
+7 warn package.json huge-quiz-demo@0.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ 'D:\\WebDev\\HugeQuizDemo\\HugeQuizDemo',
+9 verbose install   [ 'baucis',
+9 verbose install     'gulp',
+9 verbose install     'gulp-requirejs-bundler',
+9 verbose install     'gulp-concat',
+9 verbose install     'gulp-clean',
+9 verbose install     'event-stream',
+9 verbose install     'gulp-replace',
+9 verbose install     'gulp-uglify',
+9 verbose install     'gulp-html-replace',
+9 verbose install     'karma',
+9 verbose install     'karma-chrome-launcher',
+9 verbose install     'karma-jasmine',
+9 verbose install     'karma-requirejs',
+9 verbose install     'karma-requireglobal-preprocessor',
+9 verbose install     'requirejs',
+9 verbose install     'deeply',
+9 verbose install     'chalk' ] ]
+10 info preinstall huge-quiz-demo@0.0.0
+11 warn package.json karma-requireglobal-preprocessor@0.0.0 No repository field.
+12 verbose readDependencies using package.json deps
+13 verbose cache add [ 'baucis@~1.4.27', null ]
+14 verbose cache add name=undefined spec="baucis@~1.4.27" args=["baucis@~1.4.27",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'baucis@~1.4.27',
+15 verbose parsed url   path: 'baucis@~1.4.27',
+15 verbose parsed url   href: 'baucis@~1.4.27' }
+16 verbose already installed skipping gulp@~3.6.2 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+17 verbose already installed skipping gulp-requirejs-bundler@^0.1.1 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+18 verbose already installed skipping gulp-concat@~2.2.0 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+19 verbose already installed skipping gulp-clean@~0.2.4 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+20 verbose already installed skipping event-stream@~3.1.0 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+21 verbose already installed skipping gulp-replace@~0.2.0 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+22 verbose already installed skipping gulp-uglify@~0.2.1 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+23 verbose already installed skipping gulp-html-replace@~1.0.0 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+24 verbose already installed skipping karma@^0.12.15 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+25 verbose already installed skipping karma-chrome-launcher@^0.1.3 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+26 verbose already installed skipping karma-jasmine@^0.1.5 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+27 verbose already installed skipping karma-requirejs@^0.2.1 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+28 verbose already installed skipping karma-requireglobal-preprocessor@0.0.0 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+29 verbose already installed skipping requirejs@^2.1.11 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+30 verbose already installed skipping deeply@~0.1.0 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+31 verbose already installed skipping chalk@~0.4.0 D:\WebDev\HugeQuizDemo\HugeQuizDemo
+32 verbose cache add name="baucis" spec="~1.4.27" args=["baucis","~1.4.27"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: '~1.4.27',
+33 verbose parsed url   path: '~1.4.27',
+33 verbose parsed url   href: '~1.4.27' }
+34 verbose addNamed [ 'baucis', '~1.4.27' ]
+35 verbose addNamed [ null, '>=1.4.27-0 <1.5.0-0' ]
+36 silly lockFile 33f085a5-baucis-1-4-27 baucis@~1.4.27
+37 verbose lock baucis@~1.4.27 C:\Users\Kyle\AppData\Roaming\npm-cache\33f085a5-baucis-1-4-27.lock
+38 silly addNameRange { name: 'baucis', range: '>=1.4.27-0 <1.5.0-0', hasData: false }
+39 verbose request where is /baucis
+40 verbose request registry https://registry.npmjs.org/
+41 verbose request id 70dcaa2575e9c9af
+42 verbose url raw /baucis
+43 verbose url resolving [ 'https://registry.npmjs.org/', './baucis' ]
+44 verbose url resolved https://registry.npmjs.org/baucis
+45 verbose request where is https://registry.npmjs.org/baucis
+46 info trying registry request attempt 1 at 22:02:27
+47 verbose etag "DZP7M0JB2NOW1DNB3SGG17UL"
+48 http GET https://registry.npmjs.org/baucis
+49 http 304 https://registry.npmjs.org/baucis
+50 silly registry.get cb [ 304,
+50 silly registry.get   { date: 'Tue, 25 Nov 2014 04:02:24 GMT',
+50 silly registry.get     server: 'Apache',
+50 silly registry.get     via: '1.1 varnish',
+50 silly registry.get     'last-modified': 'Tue, 25 Nov 2014 04:02:24 GMT',
+50 silly registry.get     'cache-control': 'max-age=60',
+50 silly registry.get     etag: '"DZP7M0JB2NOW1DNB3SGG17UL"',
+50 silly registry.get     age: '0',
+50 silly registry.get     'x-served-by': 'cache-ord1735-ORD',
+50 silly registry.get     'x-cache': 'MISS',
+50 silly registry.get     'x-cache-hits': '0',
+50 silly registry.get     'x-timer': 'S1416888144.485258,VS0,VE329',
+50 silly registry.get     vary: 'Accept',
+50 silly registry.get     'content-length': '0',
+50 silly registry.get     'keep-alive': 'timeout=10, max=50',
+50 silly registry.get     connection: 'Keep-Alive' } ]
+51 verbose etag https://registry.npmjs.org/baucis from cache
+52 silly addNameRange number 2 { name: 'baucis', range: '>=1.4.27-0 <1.5.0-0', hasData: true }
+53 silly addNameRange versions [ 'baucis',
+53 silly addNameRange   [ '0.0.0',
+53 silly addNameRange     '0.0.1',
+53 silly addNameRange     '0.1.0',
+53 silly addNameRange     '0.1.1',
+53 silly addNameRange     '0.2.0',
+53 silly addNameRange     '0.2.1',
+53 silly addNameRange     '0.2.2',
+53 silly addNameRange     '0.2.3',
+53 silly addNameRange     '0.2.3-1',
+53 silly addNameRange     '0.2.3-2',
+53 silly addNameRange     '0.3.0-1',
+53 silly addNameRange     '0.3.0-2',
+53 silly addNameRange     '0.3.1',
+53 silly addNameRange     '0.3.1-1',
+53 silly addNameRange     '0.3.1-2',
+53 silly addNameRange     '0.3.1-3',
+53 silly addNameRange     '0.3.1-4',
+53 silly addNameRange     '0.3.1-5',
+53 silly addNameRange     '0.3.2',
+53 silly addNameRange     '0.3.3',
+53 silly addNameRange     '0.3.3-1',
+53 silly addNameRange     '0.3.3-2',
+53 silly addNameRange     '0.3.4',
+53 silly addNameRange     '0.3.4-1',
+53 silly addNameRange     '0.3.5',
+53 silly addNameRange     '0.4.0',
+53 silly addNameRange     '0.4.0-1',
+53 silly addNameRange     '0.4.1',
+53 silly addNameRange     '0.4.2',
+53 silly addNameRange     '0.4.2-1',
+53 silly addNameRange     '0.4.3',
+53 silly addNameRange     '0.4.4',
+53 silly addNameRange     '0.4.5',
+53 silly addNameRange     '0.4.6',
+53 silly addNameRange     '0.4.6-1',
+53 silly addNameRange     '0.4.6-2',
+53 silly addNameRange     '0.4.6-3',
+53 silly addNameRange     '0.4.6-4',
+53 silly addNameRange     '0.4.6-5',
+53 silly addNameRange     '0.4.6-6',
+53 silly addNameRange     '0.4.7',
+53 silly addNameRange     '0.5.0',
+53 silly addNameRange     '0.5.1',
+53 silly addNameRange     '0.5.2',
+53 silly addNameRange     '0.5.3',
+53 silly addNameRange     '0.5.4',
+53 silly addNameRange     '0.5.5',
+53 silly addNameRange     '0.5.6',
+53 silly addNameRange     '0.5.7',
+53 silly addNameRange     '0.5.8',
+53 silly addNameRange     '0.5.9',
+53 silly addNameRange     '0.5.10',
+53 silly addNameRange     '0.6.0',
+53 silly addNameRange     '0.6.1',
+53 silly addNameRange     '0.6.2',
+53 silly addNameRange     '0.6.3',
+53 silly addNameRange     '0.6.4',
+53 silly addNameRange     '0.6.5',
+53 silly addNameRange     '0.6.6',
+53 silly addNameRange     '0.6.7',
+53 silly addNameRange     '0.6.8',
+53 silly addNameRange     '0.6.9',
+53 silly addNameRange     '0.6.10',
+53 silly addNameRange     '0.6.11',
+53 silly addNameRange     '0.6.12',
+53 silly addNameRange     '0.6.13',
+53 silly addNameRange     '0.6.14',
+53 silly addNameRange     '0.6.15',
+53 silly addNameRange     '0.6.16',
+53 silly addNameRange     '0.6.17',
+53 silly addNameRange     '0.6.18',
+53 silly addNameRange     '0.6.19',
+53 silly addNameRange     '0.6.20',
+53 silly addNameRange     '0.6.21',
+53 silly addNameRange     '0.6.22',
+53 silly addNameRange     '0.6.23',
+53 silly addNameRange     '0.6.24',
+53 silly addNameRange     '0.6.25',
+53 silly addNameRange     '0.6.26',
+53 silly addNameRange     '0.6.27',
+53 silly addNameRange     '0.6.28',
+53 silly addNameRange     '0.7.0',
+53 silly addNameRange     '0.8.0',
+53 silly addNameRange     '0.9.0',
+53 silly addNameRange     '0.9.1',
+53 silly addNameRange     '0.9.3',
+53 silly addNameRange     '0.9.4',
+53 silly addNameRange     '0.10.0',
+53 silly addNameRange     '0.10.1',
+53 silly addNameRange     '0.10.2',
+53 silly addNameRange     '0.10.3',
+53 silly addNameRange     '0.10.4',
+53 silly addNameRange     '0.10.5',
+53 silly addNameRange     '0.11.0',
+53 silly addNameRange     '0.12.0',
+53 silly addNameRange     '0.12.1',
+53 silly addNameRange     '0.12.2',
+53 silly addNameRange     '0.12.3',
+53 silly addNameRange     '0.13.0',
+53 silly addNameRange     '0.14.0',
+53 silly addNameRange     '0.14.1',
+53 silly addNameRange     '0.14.2',
+53 silly addNameRange     '0.15.0',
+53 silly addNameRange     '0.15.1',
+53 silly addNameRange     '0.16.0-alpha',
+53 silly addNameRange     '0.16.1',
+53 silly addNameRange     '0.16.2',
+53 silly addNameRange     '0.16.3',
+53 silly addNameRange     '0.16.4',
+53 silly addNameRange     '0.16.5',
+53 silly addNameRange     '0.16.6',
+53 silly addNameRange     '0.16.7',
+53 silly addNameRange     '0.16.8',
+53 silly addNameRange     '0.16.9',
+53 silly addNameRange     '0.16.10',
+53 silly addNameRange     '0.16.11',
+53 silly addNameRange     '0.16.12',
+53 silly addNameRange     '0.16.13',
+53 silly addNameRange     '0.16.14',
+53 silly addNameRange     '0.16.15',
+53 silly addNameRange     '0.16.16',
+53 silly addNameRange     '0.16.17',
+53 silly addNameRange     '0.16.18',
+53 silly addNameRange     '0.16.19',
+53 silly addNameRange     '0.16.20',
+53 silly addNameRange     '0.16.21',
+53 silly addNameRange     '0.17.0',
+53 silly addNameRange     '0.18.0',
+53 silly addNameRange     '0.18.1',
+53 silly addNameRange     '0.18.2',
+53 silly addNameRange     '0.18.3',
+53 silly addNameRange     '0.18.4',
+53 silly addNameRange     '0.19.0',
+53 silly addNameRange     '0.19.1',
+53 silly addNameRange     '0.19.2',
+53 silly addNameRange     '0.20.1',
+53 silly addNameRange     '0.20.2',
+53 silly addNameRange     '0.20.3',
+53 silly addNameRange     '0.20.4',
+53 silly addNameRange     '0.20.5',
+53 silly addNameRange     '1.0.0-prerelease.1',
+53 silly addNameRange     '1.0.0-prerelease.2',
+53 silly addNameRange     '1.0.0-prerelease.3',
+53 silly addNameRange     '1.0.0-prerelease.4',
+53 silly addNameRange     '1.0.0-prerelease.5',
+53 silly addNameRange     '1.0.0-prerelease.6',
+53 silly addNameRange     '1.0.0-prerelease.7',
+53 silly addNameRange     '1.0.0-prerelease.8',
+53 silly addNameRange     '1.0.0-prerelease.9',
+53 silly addNameRange     '1.0.0-candidate.0',
+53 silly addNameRange     '1.0.0-candidate.1',
+53 silly addNameRange     '1.0.0-candidate.2',
+53 silly addNameRange     '1.0.0-candidate.3',
+53 silly addNameRange     '1.0.0-candidate.4',
+53 silly addNameRange     '1.0.0-candidate.5',
+53 silly addNameRange     '1.0.0-candidate.6',
+53 silly addNameRange     '1.0.0-candidate.7',
+53 silly addNameRange     '1.0.0-candidate.8',
+53 silly addNameRange     '1.0.0-candidate.9',
+53 silly addNameRange     '1.0.0-candidate.10',
+53 silly addNameRange     '1.0.0-candidate.11',
+53 silly addNameRange     '1.0.0-candidate.12' ] ]
+54 silly lockFile 33f085a5-baucis-1-4-27 baucis@~1.4.27
+55 silly lockFile 33f085a5-baucis-1-4-27 baucis@~1.4.27
+56 error notarget No compatible version found: baucis@'>=1.4.27-0 <1.5.0-0'
+56 error notarget Valid install targets:
+56 error notarget ["0.0.0","0.0.1","0.1.0","0.1.1","0.2.0","0.2.1","0.2.2","0.2.3","0.2.3-1","0.2.3-2","0.3.0-1","0.3.0-2","0.3.1","0.3.1-1","0.3.1-2","0.3.1-3","0.3.1-4","0.3.1-5","0.3.2","0.3.3","0.3.3-1","0.3.3-2","0.3.4","0.3.4-1","0.3.5","0.4.0","0.4.0-1","0.4.1","0.4.2","0.4.2-1","0.4.3","0.4.4","0.4.5","0.4.6","0.4.6-1","0.4.6-2","0.4.6-3","0.4.6-4","0.4.6-5","0.4.6-6","0.4.7","0.5.0","0.5.1","0.5.2","0.5.3","0.5.4","0.5.5","0.5.6","0.5.7","0.5.8","0.5.9","0.5.10","0.6.0","0.6.1","0.6.2","0.6.3","0.6.4","0.6.5","0.6.6","0.6.7","0.6.8","0.6.9","0.6.10","0.6.11","0.6.12","0.6.13","0.6.14","0.6.15","0.6.16","0.6.17","0.6.18","0.6.19","0.6.20","0.6.21","0.6.22","0.6.23","0.6.24","0.6.25","0.6.26","0.6.27","0.6.28","0.7.0","0.8.0","0.9.0","0.9.1","0.9.3","0.9.4","0.10.0","0.10.1","0.10.2","0.10.3","0.10.4","0.10.5","0.11.0","0.12.0","0.12.1","0.12.2","0.12.3","0.13.0","0.14.0","0.14.1","0.14.2","0.15.0","0.15.1","0.16.0-alpha","0.16.1","0.16.2","0.16.3","0.16.4","0.16.5","0.16.6","0.16.7","0.16.8","0.16.9","0.16.10","0.16.11","0.16.12","0.16.13","0.16.14","0.16.15","0.16.16","0.16.17","0.16.18","0.16.19","0.16.20","0.16.21","0.17.0","0.18.0","0.18.1","0.18.2","0.18.3","0.18.4","0.19.0","0.19.1","0.19.2","0.20.1","0.20.2","0.20.3","0.20.4","0.20.5","1.0.0-prerelease.1","1.0.0-prerelease.2","1.0.0-prerelease.3","1.0.0-prerelease.4","1.0.0-prerelease.5","1.0.0-prerelease.6","1.0.0-prerelease.7","1.0.0-prerelease.8","1.0.0-prerelease.9","1.0.0-candidate.0","1.0.0-candidate.1","1.0.0-candidate.2","1.0.0-candidate.3","1.0.0-candidate.4","1.0.0-candidate.5","1.0.0-candidate.6","1.0.0-candidate.7","1.0.0-candidate.8","1.0.0-candidate.9","1.0.0-candidate.10","1.0.0-candidate.11","1.0.0-candidate.12"]
+56 error notarget
+56 error notarget This is most likely not a problem with npm itself.
+56 error notarget In most cases you or one of your dependencies are requesting
+56 error notarget a package version that doesn't exist.
+57 error System Windows_NT 6.2.9200
+58 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+59 error cwd D:\WebDev\HugeQuizDemo\HugeQuizDemo
+60 error node -v v0.10.33
+61 error npm -v 1.4.28
+62 error code ETARGET
+63 verbose exit [ 1, true ]
