@@ -110,7 +110,7 @@ echo Finding bower JSON
 IF EXIST "%DEPLOYMENT_TARGET%\bower.json" (
 echo Found bower JSON
    pushd "%DEPLOYMENT_TARGET%"
- call :ExecuteCmd !NPM_CMD! install bower
+ ::call :ExecuteCmd !NPM_CMD! install bower
   call :ExecuteCmd .\node_modules\.bin\bower install
  :: call :ExecuteCmd bower install
 IF !ERRORLEVEL! NEQ 0 goto error
