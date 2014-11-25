@@ -67,7 +67,7 @@ var baucis = require('baucis');
     var app = express();
     //app.use('/api', baucis());
     app.use(express.static(__dirname + '/src'));
-    app.listen(5000);
+    app.listen(process.env.PORT || 1337);
 
     //console.log('Server listening on port 5000.');
  // });
